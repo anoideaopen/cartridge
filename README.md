@@ -1,5 +1,8 @@
 # cartridge
 
+[![Go Verify Build](https://github.com/anoideaopen/cartridge/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/anoideaopen/cartridge/actions/workflows/go.yml)
+[![Security vulnerability scan](https://github.com/anoideaopen/cartridge/actions/workflows/vulnerability-scan.yml/badge.svg?branch=main)](https://github.com/anoideaopen/cartridge/actions/workflows/vulnerability-scan.yml)
+
 Library for working with crypto providers, for example, Vault or GCP. This library will most likely be replaced with "inject" in services. #go#library#crypto#secops#offchain#service#application#
 
 ## Table of Contents
