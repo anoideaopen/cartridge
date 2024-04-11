@@ -15,8 +15,6 @@ require (
 	google.golang.org/grpc v1.53.0
 )
 
-replace github.com/hyperledger/fabric-sdk-go v1.0.0 => github.com/anoideaopen/fabric-sdk-go v0.0.1
-
 require (
 	cloud.google.com/go/compute v1.15.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
@@ -84,3 +82,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/hyperledger/fabric-sdk-go => github.com/anoideaopen/fabric-sdk-go v0.0.1

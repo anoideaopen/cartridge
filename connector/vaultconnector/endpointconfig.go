@@ -1754,7 +1754,7 @@ func (c *EndpointConfig) regexMatchAndReplace(regex *regexp.Regexp, src, repl st
 // Rule : default set to 'true' if not provided in config
 func peerChannelConfigHookFunc() mapstructure.DecodeHookFunc {
 	return func(
-		f reflect.Type,
+		_ reflect.Type, // f
 		t reflect.Type,
 		data interface{},
 	) (interface{}, error) {
