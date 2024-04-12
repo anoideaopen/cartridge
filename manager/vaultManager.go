@@ -11,7 +11,7 @@ import (
 
 	"github.com/anoideaopen/cartridge/cryptocache"
 	vault "github.com/hashicorp/vault/api"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/hyperledger/fabric-lib-go/bccsp/utils"
 )
 
 // Option is a function that configures a VaultManager
