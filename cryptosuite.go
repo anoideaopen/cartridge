@@ -19,8 +19,8 @@ import (
 	"sync"
 
 	"github.com/anoideaopen/cartridge/manager"
+	"github.com/hyperledger/fabric-lib-go/bccsp/utils"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric/bccsp/utils"
 )
 
 // NewCartridgeCryptoSuite returns cryptosuite adaptor for Signer
